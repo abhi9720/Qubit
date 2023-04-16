@@ -1,0 +1,9 @@
+.homeheader {
+    height: calc(100vh - 100px);
+    user-select: none;
+}
+
+.clublogo {
+
+    border-radius: 15px;
+}
