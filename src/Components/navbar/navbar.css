@@ -1,32 +1,11 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: red !important;
-    color: #fff;
+nav a.active {
+    color: rgb(29, 78, 216) !important;
+    background-color: transparent;
 }
 
-.navbar-logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.navbar-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-item {
-    margin-left: 20px;
-}
-
-.navbar-link {
-    color: #fff;
-    text-decoration: none;
-}
-
-.navbar-link:hover {
-    color: #ccc;
+@media(max-width:770px) {
+    nav a.active {
+        color: white !important;
+        background-color: rgb(26 86 219);
+    }
 }
