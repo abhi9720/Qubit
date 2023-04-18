@@ -6,7 +6,7 @@ const projects = [
         title: "Project 1",
         description:
             "React Photo Gallery · Responsive, accessible, composable, and customizable image gallery component · Maintains the original aspect ratio of your photos · Creates a ..",
-        imageUrl: "https://via.placeholder.com/400x200",
+        imageUrl: "https://cdn.dribbble.com/userupload/6311293/file/original-cf072f14db0720f1a126240e8953ddd6.png?compress=1&resize=1504x1128",
         githubUrl: "https://github.com",
         liveUrl: "https://example.com",
     },
@@ -15,7 +15,7 @@ const projects = [
         title: "Project 2",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur, purus at ultricies suscipit, sapien metus fringilla mauris, et pellentesque massa ex ut leo. Sed blandit, velit vel auctor mattis, nibh eros commodo arcu, in vestibulum lectus nisi vel quam.",
-        imageUrl: "https://via.placeholder.com/400x200",
+        imageUrl: "https://cdn.dribbble.com/userupload/6320510/file/still-454ddb5750329bcb4c101d8c8594d33d.png?compress=1&resize=400x300&vertical=top",
         githubUrl: "https://github.com",
         liveUrl: "https://example.com",
     },

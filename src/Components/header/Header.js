@@ -16,20 +16,19 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`${styles.homeheader} relative `}>
-            <video className="absolute inset-0 object-cover w-full h-full" src="/assets/headervediobghd.mp4" autoPlay muted loop></video>
+        <header className={`${styles.homeheader} relative`}>
+            <video className="absolute inset-0 object-cover w-full h-full z-0" src="/assets/headervediobg.mp4" autoPlay muted loop></video>
             <div className="absolute inset-0 bg-black opacity-50"></div>
-            <div className="relative z-10 flex items-center justify-center h-full">
-                <div className="flex flex-col items-center justify-center">
-                    <img src="/assets/logo.jpeg" alt="Club Logo" className={`${styles.clublogo} h-32 mb-4`} />
-                    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">Coding Club</h1>
-                    <p class="mb-6 text-center text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48">Promoting Technology, Creativity and Innovation</p>
-                    <button id="headerscroll" className="py-2 px-4 rounded-full absolute bottom-16">
-                        <img src="/assets/scrollDown.gif" className="w-16" alt="" />
-                    </button>
-                </div>
+            <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
+                <img src="/assets/logo.jpeg" alt="Club Logo" className={`${styles.clublogo} h-32 mb-4`} />
+                <h1 class="mb-4 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Coding Club</h1>
+                <p class="mb-6 text-lg font-normal text-gray-300 sm:px-16 xl:px-48">Promoting Technology, Creativity and Innovation</p>
+                <button id="headerscroll" className="py-2 px-4 rounded-full absolute bottom-16">
+                    <img src="/assets/scrollDown.gif" className="w-16" alt="" />
+                </button>
             </div>
         </header>
+
 
         // <section class="bg-white dark:bg-gray-900">
         //     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">

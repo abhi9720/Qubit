@@ -61,14 +61,15 @@ const posts = [
     // More posts...
 ]
 
+
 function Resource() {
     return (
-        <div className="bg-white">
-            <section className="relative bg-gray-900 text-white py-20 px-4 md:px-20 lg:px-40 xl:px-80 bg-center bg-no-repeat bg-fixed bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')]">
+        <div className="bg-gray-50">
+            <section className="bg-gray-900 text-white py-20 bg-cover bg-no-repeat bg-fixed  bg-[url('https://r4.wallpaperflare.com/wallpaper/391/415/637/3840x1080-owdlarrd-panoramic-wallpaper-61342abaa08e6552f02203248ebed02d.jpg')]">
                 <div className="absolute inset-0 bg-gray-900 opacity-10"></div>
 
 
-                <div className="container mx-auto">
+                <div className="container mx-auto mt-14">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">Welcome to the Coding Club</h1>
 
                     <p className="text-lg md:text-xl mb-8 text-center">Want to learn something new? Here are all the resources you might need.</p>
@@ -79,7 +80,7 @@ function Resource() {
                 <div className="mx-auto">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">Resources For You.</h2>
                     <p className="mt-2 text-2xl text-gray-600 text-center">
-                        Learn how to grow your business with our expert advice.
+                        Empowering aspiring coders with the knowledge and resources to build their skills and careers.
                     </p>
                 </div>
                 <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -95,7 +96,7 @@ function Resource() {
 
 const Card = ({ title, image }) => (
 
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg hover:shadow">
         <a href="/">
             <img className="rounded-t-lg" src={image} alt="" />
         </a>

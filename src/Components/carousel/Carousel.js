@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-carousel-minimal';
 
-const Gallery = () => {
+const CarouselGallery = () => {
     const [showModal, setShowModal] = useState(false);
     const [selectedImage, setSelectedImage] = useState('');
     const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -99,41 +99,44 @@ const Gallery = () => {
 
 
 
-            <div className='mb-32' >
-                <div style={{ padding: "0 10px" }} >
-                    <Carousel
-                        data={carouselImage}
-                        time={2000}
-                        width="900px"
-                        height="500px"
-                        radius="10px"
-                        slideNumber={true}
-                        captionPosition="bottom"
-                        automatic={true}
-                        dots={true}
-                        pauseIconColor="white"
-                        pauseIconSize="40px"
-                        slideBackgroundColor="darkgrey"
-                        slideImageFit="cover"
-                        thumbnails={true}
-                        thumbnailWidth="100px"
-                        style={{
-                            textAlign: "center",
-                            maxWidth: "900px",
-                            maxHeight: "500px",
-                            margin: "40px auto",
-                        }}
-                    />
-                </div>
-            </div>
+
+
+            <Carousel
+                data={carouselImage}
+                time={2000}
+                width="900px"
+                height="400px"
+                // radius="10px"
+                slideNumber={true}
+                captionPosition="bottom"
+                automatic={true}
+                dots={true}
+                pauseIconColor="white"
+                pauseIconSize="40px"
+                slideBackgroundColor="darkgrey"
+                slideImageFit="cover"
+                thumbnails={true}
+                thumbnailWidth="100px"
+                style={{
+                    boxSizing: "border-box",
+                    textAlign: "center",
+                    maxWidth: "900px",
+                    maxHeight: "600px",
+                    margin: "40px auto",
+                    padding: "20px",
+                    backgroundColor: "#fff",
+                    // boxShadow: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)"
+                }}
+            />
+
+
 
 
             <div className="container mx-auto px-5 py-2 lg:px-32 lg:py-12 border-t border-gray-200">
                 <h1 className="text-3xl font-bold text-gray-800 mb-4 text-center mb-10">Gallery Photos 📷</h1>
-
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {galleryImages.map((image, index) => (
-                        <div className='block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 relative'>
+                        <div className='block max-w-sm p-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 relative'>
 
                             <img
                                 key={index}
@@ -191,4 +194,4 @@ const Gallery = () => {
     );
 };
 
-export default Gallery;
+export default CarouselGallery;
