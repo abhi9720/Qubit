@@ -4,25 +4,25 @@ const people = [
         name: 'Abhishek Tiwari',
         role: 'Mentor',
         imageUrl:
-            'https://media.licdn.com/dms/image/C4D03AQEGiE8VPqQEbg/profile-displayphoto-shrink_800_800/0/1656847535775?e=1687392000&v=beta&t=Oo7ZSVee_ZHKNTCQaQQYOnzqn-JNEMOymgY21iRSHsk',
+            '/assets/coordinate/abhi9720.jpg',
     },
     {
         name: 'Mayank Raj',
         role: 'Mentor',
         imageUrl:
-            'https://media.licdn.com/dms/image/C5603AQEqmRGHHif-TQ/profile-displayphoto-shrink_800_800/0/1623778843080?e=1687392000&v=beta&t=k_ksn2z4_9gkW3X-datcU8-7TNjDqi7LemxIJwbvYA4',
+            '/assets/coordinate/mayank.jpg',
     },
     {
         name: 'Hemant Patidar',
         role: 'Mentor / Coordinator',
         imageUrl:
-            'https://media.licdn.com/dms/image/C4D03AQGU-DPLrlJ0GQ/profile-displayphoto-shrink_800_800/0/1659515506206?e=1687392000&v=beta&t=sadXp7eloM8-FvIDsbiCCIfEZ1s-iQMIcwtqePevfNQ',
+            '/assets/coordinate/hemu.jpg',
     },
     {
         name: 'Abhishek Kumar',
         role: 'Coordinator',
         imageUrl:
-            'https://media.licdn.com/dms/image/D5603AQFGJT9VH5ZFAg/profile-displayphoto-shrink_800_800/0/1676654837470?e=1687392000&v=beta&t=Z1_cz4LNDoZvOTxDhnmKaYJRjwfIrogV4ZK2QRrmwYE',
+            '/assets/coordinate/abhishek.jpg',
     },
     // {
     //     name: 'Leslie Alexander',
