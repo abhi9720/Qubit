@@ -13,6 +13,12 @@ const people = [
             '/assets/coordinate/mayank.jpg',
     },
     {
+        name: 'Atul Sharma',
+        role: 'Mentor',
+        imageUrl:
+            '/assets/coordinate/atul.jpg',
+    },
+    {
         name: 'Hemant Patidar',
         role: 'Mentor / Coordinator',
         imageUrl:
